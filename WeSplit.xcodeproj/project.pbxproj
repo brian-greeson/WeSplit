@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D381051B2E4E5D0500ADF044 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D381051A2E4E5CFF00ADF044 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		D320A4C52E295064004FF5B1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -28,6 +32,7 @@
 		D320A4C42E295064004FF5B1 /* WeSplitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeSplitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D320A4CE2E295064004FF5B1 /* WeSplitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeSplitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D320A4EE2E298D79004FF5B1 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		D381051A2E4E5CFF00ADF044 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -76,6 +81,7 @@
 		D320A4AE2E295063004FF5B1 = {
 			isa = PBXGroup;
 			children = (
+				D381051A2E4E5CFF00ADF044 /* README.md */,
 				D320A4B92E295063004FF5B1 /* WeSplit */,
 				D320A4C72E295064004FF5B1 /* WeSplitTests */,
 				D320A4D12E295064004FF5B1 /* WeSplitUITests */,
@@ -222,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D381051B2E4E5D0500ADF044 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
