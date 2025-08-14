@@ -3,7 +3,7 @@
 
 A tiny SwiftUI app that splits a restaurant check with tip across a group. This was my first SwiftUI project, focused on learning state, bindings, format styles, and basic navigation.
 
-![WeSplit screenshot](screenshots/Simulator Screenshot - iPhone 16 Pro.png)
+![WeSplit screenshot](screenshots/wesplit.png)
 
 ## Features
 - Enter a bill amount with currency formatting
