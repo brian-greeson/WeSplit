@@ -3,7 +3,7 @@
 
 A tiny SwiftUI app that splits a restaurant check with tip across a group. This was my first SwiftUI project, focused on learning state, bindings, format styles, and basic navigation.
 
-![WeSplit screenshot](screenshots/wesplit.png)
+<img src="https://github.com/brian-greeson/WeSplit/blob/main/screenshots/wesplit.png" height=500 />
 
 ## Features
 - Enter a bill amount with currency formatting
@@ -51,13 +51,6 @@ Picker("Tip Percentage", selection: $tipPercentage) {
 2. Run on a device or simulator.
 3. Type an amount, pick the number of people and a tip.
 4. The per person total updates as you go.
-
-## Customization ideas
-- Add more tip options or let users enter any percent
-- Show the total bill including tip
-- Remember the last used settings with AppStorage
-- Add currency selection
-- Dark and light appearance tweaks
 
 ## License
 MIT
